@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
 }
 
 .header {
@@ -61,7 +62,7 @@ a {
 }
 
 .hero-signup {
-    width: 500px;
+    max-width: 500px;
 }
 
 .signup-img {
@@ -104,3 +105,29 @@ a {
     margin-bottom: 60px;
 }
 /* flexbox mid-img */
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width: 700px;
+    margin: 0;
+}
+
+/* flexbox quote-body */
+.quote-body {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.cite-thor {
+    display: flex;
+    justify-content: flex-end;
+}
+/* flexbox quote-body */
