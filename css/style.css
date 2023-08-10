@@ -72,3 +72,35 @@ a {
 }
 /* flexbox header */
 
+.some-ran-info {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.img-text > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 3px solid #1F2937;
+}
+
+.img-text > p {
+    color: #1F2937;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+/* flexbox mid-img */
+.row-img-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 60px;
+}
+/* flexbox mid-img */
