@@ -31,6 +31,10 @@ button {
     background-color: #3882f6;
     padding: 5px 20px;
     border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.button-top {
     border: 0;
 }
 
@@ -131,3 +135,41 @@ a {
     justify-content: flex-end;
 }
 /* flexbox quote-body */
+
+.text-action, .text-action-sec {
+    margin: 0;
+}
+
+.text-action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#border-button {
+    border: 2px solid #F9FAF8;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+.call-signup {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    max-width: 1000px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+    gap: 125px;
+}
+
+.call-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
